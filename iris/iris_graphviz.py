@@ -129,22 +129,24 @@ fi = ct1.feature_importances_
 fi
 list(zip(X[['c1', 'c3', 'c4']].columns, fi))
 
-########################## I am done ############################
 # Ref: https://stackoverflow.com/a/46374279/3282777
+# 8.0 Show decision tree
 from sklearn.tree import export_graphviz
 
+# 8.1
 feature_names=[ 'c1','c2','c3','c4']
 class_names = ['setosa','versicolor', 'virginica']
+# 8.2
 dot_data = export_graphviz(c_tree, out_file=None,
                      feature_names=feature_names,
                      class_names=class_names,
                      filled=True, rounded=True,
                      special_characters=True)
 
-# 3.1
+# 8.3
 graph = graphviz.Source(dot_data)
 
-# 3.2 A pdf file is created in your current folder
+# 8.4 A pdf file is created in your current folder
 graph.render("iris")
 
 """

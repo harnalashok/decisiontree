@@ -1,5 +1,5 @@
 # decisiontree
-1. <a href=https://github.com/harnalashok/decisiontree/tree/master/iris>Decsion tree modeling with iris</a> Objectives are:
+1. <a href=https://github.com/harnalashok/decisiontree/tree/master/iris>Decsion tree modeling with iris:</a> Objectives are:
 <blockquote>
 <ul><li>To quickly create a decision tree</li>
   <li>To see the decision tree</li>

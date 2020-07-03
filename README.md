@@ -13,7 +13,7 @@
     <li>Decision tree modeling</li></ul></blockquote>
     For a template on pipelining and columntransformer usage see <a href=https://github.com/harnalashok/general/tree/master/Pipeline%20%26%20ColumnTransformer>template</a>.<br><br>
 3. <a href=https://github.com/harnalashok/decisiontree/tree/master/german_credit>Predicting creditability</a> using german credit dataset from UCI repository. The problem has these objectives:
-<blockquote><blockquote>
+<blockquote>
 <ul><li>Read and explore data</li>
   <li>Process data using sklearn</li>
   <li>Use column transformer and pipelining</li>
